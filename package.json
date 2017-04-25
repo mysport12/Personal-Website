@@ -1,0 +1,30 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "description": "My personal website",
+  "main": "app.js",
+  "dependencies": {
+    "babel-cli": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src -w -d lib"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mysport12/Personal-Website.git"
+  },
+  "author": "cmartin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mysport12/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/mysport12/Personal-Website#readme"
+}
