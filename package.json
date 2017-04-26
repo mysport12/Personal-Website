@@ -12,10 +12,16 @@
     "babel-cli": "^6.24.1"
   },
   "scripts": {
-    "build": "babel src -w -d lib"
+    "build": "babel src -w -d lib",
+    "start": "webpack-dev-server"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.4.0"
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "css-loader": "^0.28.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var styles = require('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+import React from 'https://unpkg.com/react@15/dist/react.min.js'
+import ReactDOM from 'https://unpkg.com/react-dom@15/dist/react-dom.min.js'
+import card from 'bootstrap-css'
 
 //Projects page
 
@@ -21,15 +21,15 @@ function Project() {
 	};
 
 	return (
-		<div class='${styles.card}'>
-			<div class='${styles.card-block}'>
-				<h3 class='${styles.card-title}'>{dailyem.name}</h3>
-				<p class='${styles.card-text}'>{dailyem.url}</p>
-				<img src={dailyem.img} class='${styles.card-img-left}'/>
+		<div styleName='card'>
+			<div styleName='card-block'>
+				<h3 styleName='card-title'>{dailyem.name}</h3>
+				<p styleName='card-text'>{dailyem.url}</p>
+				<img src={dailyem.img} styleName='card-img-left'/>
 				<p>{dailyem.description}</p>
 			</div>
-			<div class="row">
-				<p>{pcjband.name}</p>
+			<div styleName="row">
+				<h3>{pcjband.name}</h3>
 				<p>{pcjband.url}</p>
 				<img src={pcjband.img}/>
 				<p>{pcjband.description}</p>
