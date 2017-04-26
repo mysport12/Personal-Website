@@ -4,16 +4,18 @@ const config = {
   entry: '/src/app.js',
   output: {
     filename: 'bundle.js',
-    path: '/build'
+    path: '/lib'
   },
   module: {
     rules: [
       {test: /\.css$/, use: 'css-loader'},
-      {test: /\.(js|jsx)$/, use: 'babel-loader',
+      {test: /\.(js|jsx)$/, use: {
+        loader: 'babel-loader',
+        exclude: /node_modules/,
         options: {
           presets: ['env']
         }
-      }
+      }}
     ]
   },
   plugins: [
