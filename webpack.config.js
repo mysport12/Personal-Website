@@ -3,13 +3,17 @@ const path = require('path');
 const config = {
   entry: '/src/app.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    path: '/build'
   },
   module: {
     rules: [
       {test: /\.css$/, use: 'css-loader'},
-      {test: /\.(js|jsx)$/, use: 'babel-loader'}
+      {test: /\.(js|jsx)$/, use: 'babel-loader',
+        options: {
+          presets: ['env']
+        }
+      }
     ]
   },
   plugins: [
