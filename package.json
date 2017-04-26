@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "babel": {
     "presets": [
-      "react"
+      "react",
+      "env"
     ]
   },
   "description": "My personal website",
@@ -13,7 +14,10 @@
   },
   "scripts": {
     "build": "babel src -w -d lib",
-    "start": "webpack-dev-server"
+    "start": [
+      "webpack --config webpack.config.js",
+      "webpack-dev-server"
+    ]
   },
   "devDependencies": {
     "babel-loader": "^7.0.0",
