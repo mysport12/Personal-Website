@@ -1,16 +1,16 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
+  "description": "My personal website",
+  "main": "/lib/app.js",
+  "dependencies": {
+    "babel-cli": "^6.24.1"
+  },
   "babel": {
     "presets": [
       "react",
       "env"
     ]
-  },
-  "description": "My personal website",
-  "main": "app.js",
-  "dependencies": {
-    "babel-cli": "^6.24.1"
   },
   "scripts": {
     "build": "babel src -w -d lib",
