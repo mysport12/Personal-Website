@@ -6,48 +6,19 @@ import About from 'about.js'
 import Project from 'projects.js'
 import Contact from 'contact.js'
 
-
-function DisplayHome() {
-	ReactDOM.render(
-		<Home />,
-		document.getElementById('content')
-	);
-}
-
-function DisplayAbout() {
-	ReactDOM.render(
-		<About />,
-		document.getElementById('content')
-	);
-}
-
-function DisplayProjects() {
-	ReactDOM.render(
-		<Project />,
-		document.getElementById('content')
-	);
-}
-
-function DisplayContact() {
-	ReactDOM.render(
-		<Contact />,
-		document.getElementById('content')
-	);
-}
-
 class DeterminePage extends React.Component {
 	render() {
-		if this.props.page == 'homePage' {
+		if (this.props.page == 'homePage') {
 			return <Home />
 		}
-		else if this.props.page == 'aboutPage' {
-			DisplayAbout();
+		else if (this.props.page == 'aboutPage') {
+			return <About />
 		}
-		else if this.props.page == 'projectPage' {
-			DisplayProjects();
+		else if (this.props.page == 'projectPage') {
+			return <Project />
 		}
-		else if this.props.page == 'contactPage' {
-			DisplayContact();
+		else if (this.props.page == 'contactPage') {
+			return <Contact />
 		}
 		else {
 			console.log("An unknown page was selected");
@@ -56,6 +27,6 @@ class DeterminePage extends React.Component {
 }
 
 ReactDOM.render(
-	DeterminePage,
+	<DeterminePage />,
 	document.getElementById('content')
 );
