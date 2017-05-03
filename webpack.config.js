@@ -1,26 +1,52 @@
 const path = require('path');
 
 const config = {
-  entry: '/src/app.js',
+
+  entry: './src/app.js',
+
   output: {
-    filename: 'bundle.js',
-    path: '/lib'
+    path: path.resolve(__dirname, '/lib'),
+    filename: 'bundle.js'
   },
+
   module: {
     rules: [
-      {test: /\.css$/, use: 'css-loader'},
-      {test: /\.(js|jsx)$/, use: {
-        loader: 'babel-loader',
-        exclude: /node_modules/,
-        options: {
-          presets: ['env']
-        }
-      }}
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: 'style-loader',
+            options: {
+              modules: true
+            }
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(js|jsx)$/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: ['env']
+            }
+          }
+        ]
+      }
     ]
   },
+
+  resolve: {
+    modules: [path.resolve(__dirname, "src"), path.resolve(__dirname, "css"), "node_modules"]
+  },
+
   plugins: [
-    new webpack.optimize.UglifyJsPlugin(),
-    new HtmlWebpackPlugin({template: 'index.html'})
   ]
 };
 

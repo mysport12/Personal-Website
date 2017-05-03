@@ -64,7 +64,11 @@ function About(props) {
   )
 }
 
+<<<<<<< Updated upstream
 ReactDOM.render(
   <About />,
   document.getElementById('root')
 );
+=======
+module.exports = About;
+>>>>>>> Stashed changes
