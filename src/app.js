@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import styles from 'personal-website.css';
 //import Iframe from 'react-iframe'
 var Home = require('home.js');
 var About = require('about.js');
