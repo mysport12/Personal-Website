@@ -1,0 +1,47 @@
+.header {
+  text-align: center;
+}
+
+input[type=text] {
+  display: block;
+  margin: 10px;
+  border: solid 1px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+input[type=email] {
+  display: block;
+  width: 50%;
+  margin: 10px;
+  border: solid 1px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+textarea {
+  display: block;
+  width: 80%;
+  margin: 10px;
+  border: solid 1px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.fname .lname .email .message{
+  margin: 10px;
+}
+
+.formButton {
+  font-size: 20px;
+  border: solid 1px;
+  margin: 10px;
+  border-color: green;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.formButton:hover {
+  background-color: green;
+  color: white;
+}
