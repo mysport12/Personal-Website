@@ -1,20 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import styles from 'personal-website.css';
+import styles from 'home.css';
+var About = require('about.js');
+
+function goToProjects() {
+    ReactDOM.render(
+    <About />,
+    document.getElementById('content')
+  );
+}
 
 function Home() {
+
+    $('.active').removeClass('active');
+    $('#homePage').addClass('active');
+
   return(
-    <div className={styles.view}>
-      <img className={styles.coverPhoto} src='https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/303489_10150846826758933_1815786744_n.jpg?oh=d5e16bee7559a64af6979b0ade0547e5&oe=5985E5D3'/>
-      <div className={styles.containerInfo}>
-        <div className={styles.containerItem}>
-          <h1 className={styles.name}>Craig Martin</h1>
-        </div>
-        <div className={styles.containerItem}>
-          <p className={styles.lead}>Engineer Looking to Become a Developer</p>
-        </div>
-        <div className={styles.containerItem}>
-          <button className={styles.learnMore}>Learn More</button>
+    <div className='container-fluid'>
+      <div className='row'>
+        <div className='col-md-12'>
+          <img className={styles.homePhoto} src='/img/aruba.png' alt='aruba'/>
+          <div className={styles.containerItem}>
+            <h1 className={styles.name}>Craig Martin</h1>
+            <p className={styles.lead}>Developer in Training</p>
+            <button className={styles.learnMore} onClick={goToProjects}>Learn More</button>
+          </div>
         </div>
       </div>
     </div>

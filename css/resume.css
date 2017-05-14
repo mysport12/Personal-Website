@@ -1,0 +1,24 @@
+.header {
+  text-align: center;
+}
+
+.resSection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#jobTitle {
+  font-weight: bold;
+}
+
+#jobDate {
+  font-weight: normal;
+}
+
+#jobDescription {
+  font-weight: normal;
+}
+
+.workExp {
+
+}

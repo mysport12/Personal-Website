@@ -38,12 +38,23 @@ const config = {
             }
           }
         ]
-      }
+      },
+      {
+        test: /\.php$/,
+        use: [
+          {
+            loader: 'php-loader',
+            options: {
+              modules: true
+            }
+          }
+        ]
+      },
     ]
   },
 
   resolve: {
-    modules: [path.resolve(__dirname, "src"), path.resolve(__dirname, "css"), "node_modules"]
+    modules: [path.resolve(__dirname, "src"), path.resolve(__dirname, "css"), path.resolve(__dirname, "php"), "node_modules"]
   },
 
   plugins: [

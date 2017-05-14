@@ -8,7 +8,7 @@ function Project(props) {
     const pcjband = {
         name: "Pace Car Joe",
         url: "www.pcjband.com",
-        img: "/img/pacecarjoe.jpg",
+        img: "/img/pacecar.jpg",
         description: "My friend reached out looking for help with his band's website. I set him up with a Wordpress site that he is able to manage and maintain on his own. The project provided me with my first look at Wordpress and the user friendly admin dashboard."
     };
 
@@ -19,8 +19,11 @@ function Project(props) {
         description: "DailyEm.com is my wife's blog created to provide readers with fitness ideas/motivation, new and exciting recipes, and funny stories about our two dogs."
     };
 
+    $('.active').removeClass('active');
+    $('#projectPage').addClass('active');
+
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <div className='row'>
                 <div className='col-sm-4'>
                     <div className='card'>

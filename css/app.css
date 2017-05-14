@@ -1,0 +1,98 @@
+/*Override default bootstrap CSS*/
+
+.row {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.col-md-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*Footer CSS*/
+
+footer {
+	bottom: 0;
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.footerInfo {
+
+}
+
+.socialList {
+	display: block;
+	margin: auto;
+}
+
+.socialItem {
+	list-style: none;
+	display: inline-block;
+	-ms-transform: scale(0.3, 0.3); /* IE 9 */
+    -webkit-transform: scale(0.3, 0.3); /* Safari */
+    transform: scale(0.3, 0.3);
+    margin: auto;
+
+}
+
+.socialItem a {
+	display: block;
+	padding: 0;
+}
+
+#instagram, #facebook, #twitter, #linkedin {
+	background-image: url('/img/socialicons.png');
+	width: 110px;
+	height: 110px;
+}
+
+#instagram {
+	background-position: -159px -159px;
+	border-radius: 25px;
+}
+
+#linkedin {
+	background-position: -321px -321px;
+	border-radius: 5px;
+}
+
+#facebook {
+	background-position: -969px -159px;
+	border-radius: 5px;
+}
+
+#twitter {
+	background-position: -969px -483px;
+	border-radius: 5px;
+}
+
+#github {
+	background-image: url('/img/github.png');
+	width: 110px;
+	height: 110px;
+}
+
+#email {
+	background-image: url('/img/mail.png');
+	height: 110px;
+	width: 110px;
+}

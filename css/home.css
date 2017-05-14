@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.homePhoto {
+  opacity: 0.4;
+  width: 100%;
+  height: auto;
+
+}
+
+.containerItem {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.name {
+  font-size: 72pt;
+
+}
+
+.lead {
+  font-size: 36pt;
+}
+
+@media (max-width: 1200px) {
+  .name {
+    font-size: 36pt;
+  }
+
+  .lead {
+    font-size: 18pt;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .name {
+    font-size: 18pt;
+  }
+
+  .lead {
+    font-size: 10pt;
+  }
+
+}
+
+.learnMore {
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 10px auto;
+}
