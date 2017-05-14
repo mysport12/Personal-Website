@@ -152,9 +152,8 @@ function Res() {
 					<ul>
 						<li>University of New Hampshire <span>(Durham, New Hampshire)</span>
 							<ul>
-								<li>Engineer-In-Training (EIT)</li>
-								<li>Project Management Professional (PMP)</li>
-								<li>Six Sigma Green Belt</li>
+								<li>Bachelor of Science in Chemical Engineering <span>(May 2011)</span></li>
+								<li>Master of Business Administration (MBA) <span>(September 2014)</span></li>
 							</ul>
 						</li>
 					</ul>
