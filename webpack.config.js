@@ -5,7 +5,7 @@ const config = {
   entry: './src/app.js',
 
   output: {
-    path: path.resolve(__dirname, '/lib'),
+    path: path.resolve(__dirname, 'lib'),
     filename: 'bundle.js'
   },
 

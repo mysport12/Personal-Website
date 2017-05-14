@@ -1,5 +1,5 @@
 {
-  "name": "personal-website",
+  "name": "mysport12.github.io",
   "version": "1.0.0",
   "description": "My personal website",
   "main": "/lib/app.js",
@@ -15,7 +15,7 @@
   
   "scripts": {
     "compile": "babel src -w -d lib",
-    "build": "webpack -w --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server",
     "displayerror": "webpack --display-error-details"
   },
@@ -33,12 +33,12 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mysport12/Personal-Website.git"
+    "url": "git+https://github.com/mysport12/mysport12.github.io.git"
   },
   "author": "cmartin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mysport12/Personal-Website/issues"
+    "url": "https://github.com/mysport12/mysport12.github.io/issues"
   },
-  "homepage": "https://github.com/mysport12/Personal-Website#readme"
+  "homepage": "https://github.com/mysport12/mysport12.github.io#readme"
 }
