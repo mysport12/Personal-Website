@@ -29,3 +29,10 @@ p {
   height: auto;
   max-width: 100%;
 }
+
+.hockeyLogo {
+  display: inline-block;
+  max-width: 40%;
+  height: auto;
+  margin: 10px;
+}

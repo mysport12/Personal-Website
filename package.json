@@ -15,7 +15,7 @@
   
   "scripts": {
     "compile": "babel src -w -d lib",
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack -w --config webpack.config.js",
     "start": "webpack-dev-server",
     "displayerror": "webpack --display-error-details"
   },

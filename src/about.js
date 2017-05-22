@@ -10,8 +10,43 @@ function About() {
     <div>
       <h1 className='about'>About Me</h1>
       <hr/>
-      <p className='about'>My name is Craig Martin and I have put together this website to both highlight and practice my coding skills as I set out to become a developer. It is my hope to update this website with new information and new projects as my comfort and skill level improve. Until then, enjoy the quick introduction about my personal and professional life. Feel free to reach out with any additional questions or inquires. Cheers!</p>
+      <p className='about'>Let me start by saying hello, and welcome to my site! 
+      My name is Craig Martin, and I am here to provide you with a summary of who I am and what I am about. 
+      So without further ado, let's get to it.
+      Cheers!</p>
+
       <div className='container-fluid'>
+        <div className='row aboutRow'>
+          <div className='col-md-8'>
+            <h4 className='question'>Why Become a Developer?</h4>
+            <p className='answer'>There are a number of reasons why. I have always enjoyed writing code. 
+            I find it both challenging and rewarding. 
+            For me, being a developer is not much different than being an engineer. 
+            Engineers are always looking for ways to improve their product or process, 
+            much like developers who want to improve their websites or applications.
+            They dig into the root cause of problems, propose a solution, and test to make sure that the problem is solved.
+            They work with both internal and external customers to ensure that all specifications are met.
+            And they often must solve complex problems and deliver a solution that is both simple and effective.
+            Yes, both can be frustrating at times, but that's what makes finding the solution much more rewarding.</p>
+          </div>
+        </div>
+        <div className='row aboutRow'>
+          <div className='col-md-8'>
+            <h4 className='question'>Online Learning</h4>
+            <p className='answer'>All of my learning has been through online resources. 
+            I have found the following to be the most useful during my personal learning process.
+            </p>
+            <ul>
+              <li><a href='https://www.codecademy.com/learn'>Codeacademy.com</a> (Multiple Languages)</li>
+              <li><a href='https://www.bitfountain.io'>Bitfountain.io</a> (Swift)</li>
+              <li><a href='https://www.udemy.com/the-complete-web-developer-course-2/learn/v4/overview'>Udemy</a> (Multiple Languages)</li>
+              <li><a href='https://www.w3schools.com'>w3schools.com</a> (HTML, CSS, Javascript)</li>
+              <li><a href='https://facebook.github.io/react/'>Facebook's React Docs</a></li>
+              <li><a href='https://webpack.js.org'>Webpack's Docs</a></li>
+              <li><a href='http://stackoverflow.com'>StackOverflow</a> (Troubleshooting Help)</li>
+            </ul>
+          </div>
+        </div>
         <div className='row aboutRow'>
           <div className='col-md-4'>
             <h4 className='question'>Are you married?</h4>
@@ -27,13 +62,19 @@ function About() {
           </div>
           <div className='col-md-4'>
             <h4 className='question'>Do you have any kids?</h4>
-            <p className='answer'>Sort of. We have three furry children: Two dogs and a horse. We hope to someday have less furry kids, but not right now.</p>
+            <p className='answer'>Sort of. We have three furry children: Two dogs and a horse. 
+            We hope to someday have less furry kids, but not right now.
+            </p>
           </div>
         </div>
         <div className='row aboutRow'>
           <div className='col-md-4'>
             <h4 className='question'>What do you do in your free time?</h4>
-            <p className='answer'>I stay pretty busy. I play ice hockey year round in a men's league with some friends and I am always in the middle of a home remodeling project. In the summertime, I enjoy hiking, kayaking, golfing, going on walks with the dogs, and doing yard work (yes, I actually do enjoy yard work). In the winter, other than staying warm, its pretty much working out, walking the dogs, and playing hockey. I also enjoy playing video games and binge watching Netflix if I just need time to zone out.</p>
+            <p className='answer'>I stay pretty busy. I play ice hockey year round in a men's league with some friends and I am always in the middle of a home remodeling project. 
+            In the summertime, I enjoy hiking, kayaking, golfing, going on walks with the dogs, and doing yard work (yes, I actually do enjoy yard work). 
+            In the winter, other than staying warm, its pretty much working out, walking the dogs, and playing hockey. 
+            I also enjoy playing video games and binge watching Netflix if I just need time to zone out.
+            </p>
           </div>
           <div className='col-md-4'>
             <img className='pics' src='https://images.pexels.com/photos/282547/pexels-photo-282547.jpeg?h=350&auto=compress&cs=tinysrgb'/>
@@ -59,11 +100,17 @@ function About() {
       </div>
             <div className='row aboutRow'>
           <div className='col-md-4'>
-            <img className='pics' src='https://images.pexels.com/photos/2424/food-restaurant-summer-nuts.jpg?h=350&auto=compress&cs=tinysrgb'/>
+            <img className='pics hockeyLogo' src='/img/squad.jpg'/>
           </div>
           <div className='col-md-4'>
-            <h4 className='question'>Chocolate or Vanilla?</h4>
-            <p className='answer'>Is both an option?</p>
+            <h4 className='question'>Sports</h4>
+            <p className='answer'>I am the type of person that would rather get out and play a sport instead of watch it. 
+            Don't get me wrong, I still enjoy watching sports, I just prefer playing them instead. 
+            I grew up playing ice hockey, golf, baseball, and soccer. I played the first three on my high school team and also played a great deal of ultimate frisbee during the summertime. 
+             throughout high school, and played a variety of intramural sports at UNH. 
+             Now I stick to two main sports, golf and hockey.
+             I play in a men's league on Thursday nights throughout the year with <a href='http://www.squadhockey.com'>The Squad</a>. 
+             I also play in the annual Pond Hockey Classic at Lake Winnipesaukee on the Mounted Reinbeers.</p>
           </div>
       </div>
     </div>
