@@ -171,10 +171,10 @@ function Res() {
 					<h3 className={styles.techList}>TECHNICAL EXPERIENCE</h3>
 					<hr/>
 					<ul>
-						<li>Microsoft Word, Excel, PowerPoint, Visio, Skype, Project, SharePoint</li>
+						<li>Microsoft Word, Excel, PowerPoint, Visio, Skype, Project, SharePoint, SAP,
+              Windchill, SolidWorks, and MiniTab</li>
 						<li>HTML, CSS, JavaScript, React,
-						React Native, Redux, Expo, Java, SQL, WordPress, Swift, Visual Basic</li>
-						<li>SAP, Windchill, SolidWorks, and MiniTab</li>
+  						React Native, Redux, Expo, Java, SQL, WordPress, Swift, Visual Basic</li>
 					</ul>
 				</div>
 				<div className={styles.resSection}>
