@@ -130,7 +130,7 @@ function Res() {
 
 				return <ul>{descItems}</ul>
 			}
-		
+
 			for (var j = 0; j<props.jobs.length; j++) {
 				jobList.push(
 					<li id='jobTitle' key={props.jobs[j].title}>{props.jobs[j].title}<span id='jobDate' key={props.jobs[j].date}> ({props.jobs[j].date})</span>
@@ -172,8 +172,8 @@ function Res() {
 					<hr/>
 					<ul>
 						<li>Microsoft Word, Excel, PowerPoint, Visio, Skype, Project, SharePoint</li>
-						<li>HTML, CSS, JavaScript, React, 
-						React Native, Redux, Java, SQL, WordPress, Swift, Visual Basic, GitHub</li>
+						<li>HTML, CSS, JavaScript, React,
+						React Native, Redux, Expo, Java, SQL, WordPress, Swift, Visual Basic</li>
 						<li>SAP, Windchill, SolidWorks, and MiniTab</li>
 					</ul>
 				</div>
