@@ -6,7 +6,6 @@
   opacity: 0.4;
   width: 100%;
   height: auto;
-
 }
 
 .containerItem {
@@ -20,7 +19,14 @@
 
 .name {
   font-size: 72pt;
+}
 
+.profile {
+  margin: 10px auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
 .lead {
@@ -31,11 +37,6 @@
   .name {
     font-size: 36pt;
   }
-
-  .lead {
-    font-size: 18pt;
-  }
-
 }
 
 @media (max-width: 575px) {
@@ -43,15 +44,14 @@
     font-size: 18pt;
   }
 
-  .lead {
-    font-size: 10pt;
+  .profile {
+    max-width: 60%;
+    border-radius: 20px;
   }
-
 }
 
 .learnMore {
   height: 50px;
-  width: 150px;
   background-color: black;
   color: white;
   width: 100%;

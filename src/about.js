@@ -43,6 +43,7 @@ function About() {
                 <ul>
                   <li><a href='https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/overview'>React Native and Redux</a></li>
                   <li><a href='https://www.udemy.com/react-native-advanced/learn/v4/overview'>Advanced React Native</a></li>
+                  <li><a href='https://www.udemy.com/the-complete-developers-guide-to-mongodb/learn/v4/overview'>MongoDB</a></li>
                   <li><a href='https://www.udemy.com/the-complete-web-developer-course-2/learn/v4/overview'>Complete Web Developer Course</a></li>
                 </ul>
               </li>
@@ -57,20 +58,14 @@ function About() {
           <div className='col-md-4'>
             <h4 className='question'>Are you married?</h4>
             <p className='answer'>I have been happily married since 2015</p>
-          </div>
-          <div className='col-md-4'>
-            <img className='pics' src='https://images.pexels.com/photos/17834/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb'/>
-          </div>
-        </div>
-        <div className='row aboutRow'>
-          <div className='col-md-4'>
-            <img className='pics' src='https://images.pexels.com/photos/8700/wall-animal-dog-pet.jpg?h=350&auto=compress&cs=tinysrgb'/>
+            <img className='pics' src='/img/wedding.jpg'/>
           </div>
           <div className='col-md-4'>
             <h4 className='question'>Do you have any kids?</h4>
             <p className='answer'>Sort of. We have three furry children: Two dogs and a horse.
             We hope to someday have less furry kids, but not right now.
             </p>
+            <img className='pics' src='/img/dogs.jpg'/>
           </div>
         </div>
         <div className='row aboutRow'>
@@ -83,38 +78,32 @@ function About() {
             </p>
           </div>
           <div className='col-md-4'>
-            <img className='pics' src='https://images.pexels.com/photos/282547/pexels-photo-282547.jpeg?h=350&auto=compress&cs=tinysrgb'/>
+            <img className='pics' src='/img/hiking.jpg'/>
           </div>
         </div>
       <div className='row aboutRow'>
-          <div className='col-md-4'>
-            <img className='pics' src='https://images.pexels.com/photos/189243/pexels-photo-189243.jpeg?h=350&auto=compress&cs=tinysrgb'/>
-          </div>
-          <div className='col-md-4'>
-            <h4 className='question'>Where do you live?</h4>
-            <p className='answer'>We live in New Hampshire about a half an hour from the coast and are centrally located between Portland, Maine and Boston, MA</p>
-          </div>
+        <div className='col-md-4'>
+          <h4 className='question'>Where do you live?</h4>
+          <p className='answer'>We live in New Hampshire about a half an hour from the coast and are centrally located between Portland, Maine and Boston, MA</p>
+          <img className='pics' src='https://images.pexels.com/photos/189243/pexels-photo-189243.jpeg?h=350&auto=compress&cs=tinysrgb'/>
+        </div>
+        <div className='col-md-4'>
+          <h4 className='question'>Favorite vacation spot?</h4>
+          <p className='answer'>Riviera Maya, Mexico. Our favorite resort is the Valentin Imperial Maya.</p>
+          <img className='pics' src='https://images.pexels.com/photos/261411/pexels-photo-261411.jpeg?h=350&auto=compress&cs=tinysrgb'/>
+        </div>
       </div>
-        <div className='row aboutRow'>
-          <div className='col-md-4'>
-            <h4 className='question'>Favorite vacation spot?</h4>
-            <p className='answer'>Riviera Maya, Mexico. Our favorite resort is the Valentin Imperial Maya.</p>
-          </div>
-          <div className='col-md-4'>
-            <img className='pics' src='https://images.pexels.com/photos/261411/pexels-photo-261411.jpeg?h=350&auto=compress&cs=tinysrgb'/>
-          </div>
-      </div>
-            <div className='row aboutRow'>
-          <div className='col-md-4'>
-            <img className='pics hockeyLogo' src='/img/squad.jpg'/>
-          </div>
-          <div className='col-md-4'>
-            <h4 className='question'>Sports</h4>
-            <p className='answer'>I am the type of person that would rather get out and play a sport instead of watch it.
-            I grew up playing ice hockey, golf, baseball, and soccer, but stick to just two sports now; golf and hockey.
-             I play in a men's league on Thursday nights throughout the year with <a href='http://www.squadhockey.com'>The Squad</a>.
-             I also play in the annual Pond Hockey Classic at Lake Winnipesaukee on the Mounted Reinbeers.</p>
-          </div>
+      <div className='row aboutRow'>
+        <div className='col-md-4'>
+          <h4 className='question'>Sports</h4>
+          <p className='answer'>I am the type of person that would rather get out and play a sport instead of watch it.
+          I grew up playing ice hockey, golf, baseball, and soccer, but stick to just two sports now; golf and hockey.
+           I play in a men's league on Thursday nights throughout the year with <a href='http://www.squadhockey.com'>The Squad</a>.
+           I also play in the annual Pond Hockey Classic at Lake Winnipesaukee on the Mounted Reinbeers.</p>
+        </div>
+        <div className='col-md-4'>
+          <img className='pics hockeyLogo' src='/img/squad.jpg'/>
+        </div>
       </div>
     </div>
   </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import card from 'bootstrap-css';
+import styles from '../css/projects.css';
 
 //Projects page
 
@@ -29,19 +30,23 @@ function Project(props) {
                     <div className='card'>
                         <div className='card-block'>
                             <h3 className='card-title'>{dailyem.name}</h3>
-                            <p className='card-text'>{dailyem.url}</p>
-                            <img src={dailyem.img} className='card-img-left'/>
-                            <p className='card-text'>{dailyem.description}</p>
+                            <p>{dailyem.url}</p>
+                            <img src={dailyem.img} className='card-img'/>
+                            <div className={styles.textContainer}>
+                              <p className='card-text'>{dailyem.description}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="col-sm-4">
+                <div className='col-sm-4'>
                     <div className='card'>
                         <div className='card-block'>
                             <h3 className='card-title'>{pcjband.name}</h3>
-                            <p className='card-text'>{pcjband.url}</p>
-                            <img className='card-img-left' src={pcjband.img}/>
-                            <p className='card-text'>{pcjband.description}</p>
+                            <p>{pcjband.url}</p>
+                            <img className='card-img' src={pcjband.img}/>
+                            <div className={styles.textContainer}>
+                              <p className='card-text'>{pcjband.description}</p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -174,7 +174,7 @@ function Res() {
 						<li>Microsoft Word, Excel, PowerPoint, Visio, Skype, Project, SharePoint, SAP,
               Windchill, SolidWorks, and MiniTab</li>
 						<li>HTML, CSS, JavaScript, React,
-  						React Native, Redux, Expo, Java, SQL, WordPress, Swift, Visual Basic</li>
+  						React Native, Redux, Expo, MongoDB, Java, SQL, WordPress, Swift, Visual Basic</li>
 					</ul>
 				</div>
 				<div className={styles.resSection}>

@@ -21,8 +21,8 @@ function Home() {
         <div className='col-md-12'>
           <img className={styles.homePhoto} src='/img/aruba.png' alt='aruba'/>
           <div className={styles.containerItem}>
+            <img className={styles.profile} src='/img/profilePic.jpg' alt='profile'/>
             <h1 className={styles.name}>Craig Martin</h1>
-            <p className={styles.lead}>Developer in Training</p>
             <button className={styles.learnMore} onClick={goToProjects}>Learn More</button>
           </div>
         </div>
